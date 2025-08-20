@@ -2,6 +2,9 @@
   "buildCommand": "pnpm build",
   "installCommand": "pnpm i",
   "framework": "nextjs",
+  "env": {
+    "VERCEL_NODE_VERSION": "20"
+  },
   "git": {
     "deploymentEnabled": {
       "main": true
