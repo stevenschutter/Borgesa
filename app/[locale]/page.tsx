@@ -6,6 +6,8 @@ import { USPList } from '@/components/USPList';
 import { CaseGrid } from '@/components/CaseGrid';
 import { Testimonials } from '@/components/Testimonials';
 
+export const dynamic = 'force-static';
+
 export default async function Home({ params }: { params: { locale: 'nl' | 'en' } }) {
   const home = await getNamespace(params.locale, 'home');
   return (
