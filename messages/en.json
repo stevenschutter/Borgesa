@@ -1,0 +1,63 @@
+{
+  "home": {
+    "hero": {
+      "title": "Borgesa — Wedding planning that breathes calm and rhythm.",
+      "subtitle": "From a tight schedule to a smooth wedding day. You enjoy — we arrange. Optional: a DJ combo that fills the dance floor.",
+      "ctaPrimary": "Book an intro call",
+      "ctaSecondary": "Explore services"
+    },
+    "portfolio": { "title": "Real weddings", "subtitle": "A few examples.", "cta": "View all" },
+    "testimonials": { "title": "What couples say" }
+  },
+  "services": {
+    "title": "Services",
+    "intro": "Not everyone wants A–Z. Pick what you need.",
+    "day": { "title": "Day coordination", "desc": "Intake, schedule, supplier orchestration, timeline, contingency." },
+    "partial": { "title": "Partial planning", "desc": "Supplier selection, budget tracking, planning." },
+    "full": { "title": "Full service", "desc": "End-to-end wedding planning." },
+    "pricing": { "title": "Pricing", "desc": "We work with packages or a percentage of your total budget. Transparent when scope changes." },
+    "dj": { "title": "Add-on: DJ combo", "desc": "Book separately or together." }
+  },
+  "portfolio": { "title": "Real weddings", "subtitle": "Warm, organized, dance-focused.", "vendors": "Vendors" },
+  "about": {
+    "title": "About Sara Borgers",
+    "subtitle": "Organizer, problem-solver, steady under pressure.",
+    "bio": "I run Borgesa with a calm hand. Clear communication, tight schedules, and attention to the dance floor.",
+    "processTitle": "How we work",
+    "process": {
+      "1": { "title": "Intro call", "desc": "We map your needs and priorities." },
+      "2": { "title": "Proposal", "desc": "Scope and format that fit." },
+      "3": { "title": "Planning", "desc": "Suppliers, budget, timeline." },
+      "4": { "title": "Fine-tuning", "desc": "Plan B/C and details." },
+      "5": { "title": "Wedding day", "desc": "Hands-on coordination." }
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "1": { "q": "What is day coordination?", "a": "We manage the day so you can enjoy it." },
+    "2": { "q": "How do you handle budgets?", "a": "We keep track and signal changes early." },
+    "3": { "q": "Supplier network?", "a": "We suggest solid partners when needed." },
+    "4": { "q": "Timeline delays?", "a": "We buffer and adjust on the fly." },
+    "5": { "q": "No-show risk?", "a": "Backups and plan B/C where possible." },
+    "6": { "q": "Weather plan?", "a": "We prepare indoor and outdoor options." },
+    "7": { "q": "DJ combo?", "a": "Optional, with 25 years of experience." },
+    "8": { "q": "When to book?", "a": "The earlier the better, 6–12 months is ideal." },
+    "9": { "q": "Do you travel?", "a": "Across Belgium." },
+    "10": { "q": "Response time?", "a": "We reply within 2 business days." }
+  },
+  "blog": { "title": "Blog" },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Short form or detailed intake.",
+    "short": { "title": "Quick message" },
+    "intake": { "title": "Intake form" },
+    "info": "Service area: Belgium. We reply within 2 business days."
+  },
+  "privacy": {
+    "title": "Privacy & Cookies",
+    "intro": "We respect your data.",
+    "data": { "title": "Data", "desc": "We only collect what is needed to respond to your request." },
+    "cookies": { "title": "Cookies", "desc": "Functional and analytical cookies only." },
+    "rights": { "title": "Your rights", "desc": "Contact us for access or deletion." }
+  }
+}

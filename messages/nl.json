@@ -1,0 +1,63 @@
+{
+  "home": {
+    "hero": {
+      "title": "Borgesa — Wedding planning die ademt rust en ritme.",
+      "subtitle": "Van strak draaiboek tot vlot verloop op de dag zelf. Jij geniet — wij regelen. En als je wil: een DJ-combi die de dansvloer vult.",
+      "ctaPrimary": "Plan kennismaking",
+      "ctaSecondary": "Ontdek services"
+    },
+    "portfolio": { "title": "Real weddings", "subtitle": "Een paar voorbeelden.", "cta": "Bekijk alles" },
+    "testimonials": { "title": "Wat koppels zeggen" }
+  },
+  "services": {
+    "title": "Services",
+    "intro": "Niet iedereen wil A–Z. Kies wat je nodig hebt.",
+    "day": { "title": "Dagcoördinatie", "desc": "Intake, draaiboek, leveranciers-orchestratie, timeline, noodplan." },
+    "partial": { "title": "Deelorganisatie", "desc": "Leveranciersselectie, budgetbewaking, planning." },
+    "full": { "title": "Full service", "desc": "Volledige wedding planning." },
+    "pricing": { "title": "Prijszetting", "desc": "We werken met pakketten of een percentage van het totaalbudget. Transparant bij scopewijziging." },
+    "dj": { "title": "Add-on: DJ-combi", "desc": "Los of samen te boeken." }
+  },
+  "portfolio": { "title": "Real weddings", "subtitle": "Warm, georganiseerd, feest centraal.", "vendors": "Leveranciers" },
+  "about": {
+    "title": "Over Sara Borgers",
+    "subtitle": "Organisator, probleemoplosser, panikeert niet.",
+    "bio": "Ik run Borgesa met rust en structuur. Heldere communicatie, strakke schema’s en aandacht voor het dansfeest.",
+    "processTitle": "Werkwijze in 5 stappen",
+    "process": {
+      "1": { "title": "Kennismaking", "desc": "We brengen noden en prioriteiten in kaart." },
+      "2": { "title": "Voorstel", "desc": "Scope en vorm die past." },
+      "3": { "title": "Planning", "desc": "Leveranciers, budget, timeline." },
+      "4": { "title": "Fijnslijpen", "desc": "Plan B/C en details." },
+      "5": { "title": "De dag zelf", "desc": "Hands-on coördinatie." }
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "1": { "q": "Wat is dagcoördinatie?", "a": "Wij sturen de dag zodat jij kan genieten." },
+    "2": { "q": "Hoe bewaken jullie het budget?", "a": "We volgen op en signaleren tijdig." },
+    "3": { "q": "Leveranciersnetwerk?", "a": "We adviseren solide partners waar nodig." },
+    "4": { "q": "Wat bij vertraging?", "a": "We voorzien buffers en sturen bij." },
+    "5": { "q": "No-show risico?", "a": "Back-ups en plan B/C indien mogelijk." },
+    "6": { "q": "Weerplan?", "a": "Binnen- en buitenopties voorbereid." },
+    "7": { "q": "DJ-combi?", "a": "Optioneel, met 25 jaar ervaring." },
+    "8": { "q": "Wanneer boeken?", "a": "Hoe vroeger hoe beter; 6–12 maanden is ideaal." },
+    "9": { "q": "Werken jullie in heel België?", "a": "Ja." },
+    "10": { "q": "Reactietermijn?", "a": "We antwoorden binnen 2 werkdagen." }
+  },
+  "blog": { "title": "Blog" },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Kort formulier of uitgebreide intake.",
+    "short": { "title": "Kort bericht" },
+    "intake": { "title": "Intakeformulier" },
+    "info": "Servicegebied: België. We antwoorden binnen 2 werkdagen."
+  },
+  "privacy": {
+    "title": "Privacy & Cookies",
+    "intro": "We respecteren je gegevens.",
+    "data": { "title": "Gegevens", "desc": "We verzamelen enkel wat nodig is om te antwoorden." },
+    "cookies": { "title": "Cookies", "desc": "Enkel functionele en analytische cookies." },
+    "rights": { "title": "Jouw rechten", "desc": "Contacteer ons voor inzage of verwijdering." }
+  }
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #ffffff;
+}
+
+html,
+body {
+  @apply bg-white text-text font-body antialiased;
+}
+
+a {
+  @apply text-charcoal underline-offset-4 hover:underline;
+}
+
+.container-responsive {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
