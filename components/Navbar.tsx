@@ -11,6 +11,7 @@ const nav = [
   { href: '/faq', label: 'FAQ' },
   { href: '/blog', label: 'Blog' },
   { href: '/contact', label: 'Contact' },
+  { href: '/setup', label: 'Setup' },
 ];
 
 function withLocalePrefix(pathname: string | null, href: string) {
