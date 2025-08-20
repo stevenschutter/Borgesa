@@ -13,15 +13,22 @@ const nav = [
   { href: '/contact', label: 'Contact' },
 ];
 
+function withLocalePrefix(pathname: string | null, href: string) {
+  const match = pathname?.match(/^\/(nl|en)/);
+  const prefix = match?.[0] || '/nl';
+  const clean = href.startsWith('/') ? href : `/${href}`;
+  return `${prefix}${clean}`.replace(/\/+/, '/');
+}
+
 export function Navbar() {
   const pathname = usePathname();
   return (
     <header className="sticky top-0 z-50 backdrop-blur bg-white/80 border-b">
       <div className="container-responsive flex items-center justify-between h-16">
-        <Link href="/" className="font-display text-xl">Borgesa</Link>
+        <Link href={withLocalePrefix(pathname, '/')} className="font-display text-xl">Borgesa</Link>
         <nav className="hidden md:flex gap-6 items-center">
           {nav.map((item) => (
-            <Link key={item.href} href={item.href} className={pathname === item.href ? 'text-charcoal font-medium' : 'text-text/80'}>
+            <Link key={item.href} href={withLocalePrefix(pathname, item.href)} className={pathname === item.href ? 'text-charcoal font-medium' : 'text-text/80'}>
               {item.label}
             </Link>
           ))}

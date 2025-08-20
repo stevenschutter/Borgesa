@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
+import { markdownToHtml } from '@/lib/markdown';
 import { notFound } from 'next/navigation';
 import { SectionHeader } from '@/components/SectionHeader';
 import { getNamespace } from '@/lib/i18n/messages';
@@ -18,10 +19,11 @@ export default async function CasePage({ params }: { params: { slug: string; loc
   if (!fs.existsSync(filePath)) return notFound();
   const raw = fs.readFileSync(filePath, 'utf8');
   const { data, content } = matter(raw);
+  const html = await markdownToHtml(content);
   return (
     <article className="prose prose-neutral max-w-none py-12">
       <SectionHeader title={data.title || params.slug} subtitle={data.subtitle || ''} />
-      <div dangerouslySetInnerHTML={{ __html: content }} />
+      <div dangerouslySetInnerHTML={{ __html: html }} />
       <div className="mt-8 p-4 bg-offwhite rounded">
         <h3 className="font-display text-xl text-charcoal">{t.vendors}</h3>
         <ul className="list-disc pl-6">
